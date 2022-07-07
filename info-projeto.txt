@@ -1,0 +1,21 @@
+logo do site:
+<a href="https://fontmeme.com/pt/fonte-de-pokemon/"><img src="https://fontmeme.com/permalink/220706/007e9a9252c3e1d93fbff9604d10ba25.png" alt="fonte-de-pokemon" border="0"></a>
+
+fontes: 
+- Quicksand
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+font-family: 'Quicksand', sans-serif;
+
+- pacifico
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+font-family: 'Pacifico', cursive;
+
+
+-mingzat 
+
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+font-family: 'Mingzat', sans-serif;

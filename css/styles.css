@@ -1,0 +1,23 @@
+@import url(../css/cabecalho/cabecalho.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+:root{
+    --vermelho: #DC3832;
+    --azul: #42B7BC;
+    --mingzat: 'Mingzat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--mingzat);
+    background-color: var(--azul);
+}
