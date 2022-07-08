@@ -1,14 +1,17 @@
 .cabecalho{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1em;
+    position: fixed;
 }
 
 .logo{
     width: 30%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo__img{
@@ -16,26 +19,37 @@
 }
 
 .menu{
-    width: 40%
+    width: 60%;
 }
 
 .menu__lista{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.menu__item{
+   width: 20%;
+    text-align: center;
 }
 
 .menu__item a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    color: #f8f1f1;
+    color: var(--azul-normal); 
     text-align: center;
     text-transform: uppercase;
-}
 
+}
 .menu__item a:hover{
-    border-bottom: 1px solid #f3d3d3;
-    transition: 0.4s all;
+    color: var(--azulzinho);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    transform: 0.6s all;
+}
+.menu__item:hover{
+    color: var(--azulzinho);
+    border-bottom: 1px solid var(--azulzinho);
+    transition: 0.6s all;
 }
 

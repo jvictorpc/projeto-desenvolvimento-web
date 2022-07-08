@@ -1,11 +1,15 @@
 @import url(../css/cabecalho/cabecalho.css);
+@import url(../css/conteudo/conteudo.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
 
 :root{
     --vermelho: #DC3832;
-    --azul: #42B7BC;
+    --azul-escuro: #011F26;
+    --azulzinho: #b9c5d4; 
+    --azul-normal: #026873;
     --mingzat: 'Mingzat', sans-serif;
+
 }
 
 *{
@@ -19,5 +23,17 @@
 body{
     font-size: 16px;
     font-family: var(--mingzat);
-    background-color: var(--azul);
+    background-color: var(--azul-escuro);
+}
+
+.titulo{
+    font-size: 2em;
+    color: var(--azulzinho);
+    border-bottom: 1px solid var(--azulzinho);
+    margin-bottom: 1em;
+}
+
+.texto{
+    font-size: 1.2em;
+    color: var(--azulzinho);
 }
