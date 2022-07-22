@@ -5,7 +5,11 @@
     align-items: center;
     padding: 1em;
     position: fixed;
+    top: 0;
+    z-index: 10;
+    
 }
+
 
 .logo{
     width: 30%;

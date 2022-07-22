@@ -1,45 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokémon Spa</title>
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
-    <body>
-        <header class="cabecalho">
-            <h1 class="logo">
-                <img class="logo__img" src="https://fontmeme.com/permalink/220706/007e9a9252c3e1d93fbff9604d10ba25.png" alt="fonte-de-pokemon">
-            </h1>
 
-            <div class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item">
-                        <a href="#" >Sobre</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" >Endereço</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" >Pacotes</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" >Cadastro</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Spa</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-        <section class="conteudo" id="sobre">
-            <figure class="conteudo__imagem">
-                <img src="./img/chill2.png" alt="pokemon chilling" class="img">
-            </figure>
-            
-            
-            <div class="sobre__texto">
-                <h2 class="titulo">Sobre</h2>
-                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae qui temporibus reiciendis libero ipsam facere repellendus recusandae fuga, aliquam mollitia, dolor accusamus, odio enim debitis nemo quibusdam doloremque ad.</p>
-            </div>
-        </section>
-    </body>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">
+            <img class="logo__img" src="https://fontmeme.com/permalink/220706/007e9a9252c3e1d93fbff9604d10ba25.png"
+                alt="fonte-de-pokemon">
+        </h1>
+
+        <div class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item">
+                    <a href="#">Sobre</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#endereco">Endereço</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#pacotes">Pacotes</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#newsletter">Newsletter</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="espaco__cabecalho" id="sobre"></div>
+    
+    <section class="conteudo" >
+        <figure class="conteudo__imagem">
+            <img src="./img/chill2.png" alt="pokemon chilling" class="img">
+        </figure>
+
+
+        <div class="sobre__texto">
+            <h2 class="titulo">Sobre</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae qui temporibus
+                reiciendis libero ipsam facere repellendus recusandae fuga, aliquam mollitia, dolor accusamus, odio enim
+                debitis nemo quibusdam doloremque ad.</p>
+        </div>
+    </section>
+
+    <div class="espaco__cabecalho" id="endereco"></div>
+
+    <section class="conteudo">
+        <div class="sobre__texto sobre__texto-orientacao">
+            <h2 class="titulo">Endereço</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae qui temporibus
+                reiciendis libero ipsam facere repellendus recusandae fuga, aliquam mollitia, dolor accusamus, odio enim
+                debitis nemo quibusdam doloremque ad.
+            </p>
+        </div>
+
+        <figure class="conteudo__imagem">
+            <img src="./img/Quilava2.jpg" alt="pokemon chilling" class="img">
+        </figure>
+    </section>
+
+    <div class="espaco__cabecalho" id="pacotes"></div>
+    <section class="conteudo pacotes">
+        <h2 class="pacotes__titulo">conheça os nossos planos</h2>
+        <ul class="pacotes__cards">
+            <li class="card card--simples">
+                <h3 class="card__titulo">Soft</h3>
+
+                <div class="card__info">
+                    <p class="card__preco"><em>R$ 300,00</em></p>
+                    <p class="card__texto">limpeza de pele</p>
+                    <p class="card__texto">massagem</p>
+                    <a class="card__link" href="#">Solicitar Plano</a>
+                </div>
+            </li>
+            <li class="card card--premium">
+                <h3 class="card__titulo">Premium</h3>
+
+                <div class="card__info">
+                    <p class="card__preco"><em>R$ 800,00</em></p>
+                    <p class="card__texto">limpeza de pele premium</p>
+                    <p class="card__texto">massagem mais premium</p>
+                    <a class="card__link" href="#">Solicitar Plano</a>
+                </div>
+            </li>
+            <li class="card card--vip">
+                <h3 class="card__titulo">VIP</h3>
+
+                <div class="card__info">
+                    <p class="card__preco"><em>R$ 500,00</em></p>
+                    <p class="card__texto">limpeza de pele especial</p>
+                    <p class="card__texto">massagem especial</p>
+                    <a class="card__link" href="#">Solicitar Plano</a>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <div class="espaco__cabecalho" id="newsletter"></div>
+
+    <section class="conteudo cadastro" >
+        <figure class="conteudo__imagem">
+            <img src="./img/summer2.jpg" alt="pokemon chilling" class="img">
+        </figure>
+
+        <form class="formulario">
+            <label for="nome"></label>
+            <input class="formulario__campo" type="text" id="nome" placeholder="Nome" aria-label="Nome" required>
+
+            <label for="email"></label>
+            <input class="formulario__campo" type="email" id="email" placeholder="Insira seu email aqui"
+                aria-label="Insira seu email aqui" required>
+
+            <label for="tel"></label>
+            <input class="formulario__campo" type="tel" id="tel" placeholder="Seu contato de telefone"
+                aria-label="Seu contato de telefone" required>
+
+            <button class="formulario__botao" type="submit">Assine nossa newsletter</button>
+
+        </form>
+    </section>
+</body>
+
 </html>
