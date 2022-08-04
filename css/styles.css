@@ -2,6 +2,7 @@
 @import url(../css/conteudo/conteudo.css);
 @import url(../css/pacotes/pacotes.css);
 @import url(../css/cadastro/cadastro.css);
+@import url(../css/saiba-mais/saiba-mais.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
 
@@ -46,4 +47,8 @@ body {
 
 .espaco__cabecalho {
     height: 1.5em;
+}
+
+.list{
+    list-style: circle;
 }
